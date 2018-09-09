@@ -1,0 +1,5 @@
+# Project-specific files
+pub
+
+# Node.js
+node_modules
