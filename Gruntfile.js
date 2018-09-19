@@ -6,7 +6,7 @@ module.exports = function (grunt) {
 				sourceMap : false
 			},
 			js: {
-			  src: ['src/js/*.js'],
+			  src: ['src/js/**'],
 			  dest: 'pub/js/script.js',
 			},
 		},
