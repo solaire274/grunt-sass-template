@@ -11,21 +11,30 @@
 @import "_footer.scss";
 
 // responsiveness
-@media only screen and (min-width: 1200px) {
-	@import "responsive/_1200.scss";
+@media only screen and (min-width: 320px) {
+	@import "responsive/_320.scss";
 }
-@media only screen and (min-width: 1024px) {
-	@import "responsive/_1024.scss";
-}
-@media only screen and (min-width: 900px) {
-	@import "responsive/_900.scss";
-}
-@media only screen and (min-width: 600px) {
-	@import "responsive/_600.scss";
-}
+
 @media only screen and (min-width: 480px) {
 	@import "responsive/_480.scss";
 }
-@media only screen and (min-width: 320px) {
-	@import "responsive/_320.scss";
+
+@media only screen and (min-width: 600px) {
+	@import "responsive/_600.scss";
+}
+
+@media only screen and (min-width: 768px) {
+	@import "responsive/_768.scss";
+}
+
+@media only screen and (min-width: 900px) {
+	@import "responsive/_900.scss";
+}
+
+@media only screen and (min-width: 1024px) {
+	@import "responsive/_1024.scss";
+}
+
+@media only screen and (min-width: 1200px) {
+	@import "responsive/_1200.scss";
 }
